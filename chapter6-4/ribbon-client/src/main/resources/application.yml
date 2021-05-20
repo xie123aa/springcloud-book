@@ -1,9 +1,11 @@
 stores:
   ribbon:
+#    可以自己配置
     listOfServers: example.com,google.com
 
 ribbon:
   eureka:
+#    关闭服务发现
    enabled: false
 server:
   port: 8769
