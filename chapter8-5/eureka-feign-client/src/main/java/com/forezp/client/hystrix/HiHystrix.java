@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by fangzhipeng on 2017/6/21.
  */
+//2.»ØÍËÂß¼­
 @Component
 public class HiHystrix implements EurekaClientFeign {
     @Override

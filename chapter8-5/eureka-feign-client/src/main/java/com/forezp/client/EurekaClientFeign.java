@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * Created by fangzhipeng on 2017/6/21.
  */
+//1.fallback是新增的，HiHystrix是回退逻辑
 @FeignClient(value = "eureka-client",configuration = FeignConfig.class,fallback = HiHystrix.class)
 public interface EurekaClientFeign {
     @GetMapping(value = "/hi")
