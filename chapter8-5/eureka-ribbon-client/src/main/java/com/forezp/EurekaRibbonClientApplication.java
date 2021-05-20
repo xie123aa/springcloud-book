@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 @SpringBootApplication
 @EnableEurekaClient
+//2.×¢½â¿ªÆôÈÛ¶Ï
 @EnableHystrix
 public class EurekaRibbonClientApplication {
 

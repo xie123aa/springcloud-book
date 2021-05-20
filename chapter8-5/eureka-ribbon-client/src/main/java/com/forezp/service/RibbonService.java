@@ -13,7 +13,7 @@ public class RibbonService {
 
     @Autowired
     RestTemplate restTemplate;
-
+//    3.使用HystrixCommand注解，fallbackMethod处理回退方法
     @HystrixCommand(fallbackMethod = "hiError")
     public String hi(String name) {
         return restTemplate.getForObject("http://eureka-client/hi?name="+name,String.class);
