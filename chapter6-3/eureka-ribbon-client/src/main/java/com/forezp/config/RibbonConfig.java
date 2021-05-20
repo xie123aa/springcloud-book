@@ -7,6 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by fangzhipeng on 2017/6/13.
+ * 1.在ioc容器中注入一个RestTemplate，并在这个bean上加上LoadBalanced注解，此时RestTemplate就结合ribbon
  */
 @Configuration
 public class RibbonConfig {

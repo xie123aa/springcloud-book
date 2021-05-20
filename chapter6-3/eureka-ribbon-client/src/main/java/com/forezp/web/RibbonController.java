@@ -15,14 +15,16 @@ import java.net.URI;
  */
 @RestController
 public class RibbonController {
-
+    //3.使用之前的service
     @Autowired
     RibbonService ribbonService;
     @GetMapping("/hi")
     public String hi(@RequestParam(required = false,defaultValue = "forezp") String name){
         return ribbonService.hi(name);
     }
+    //3结束——————————————————————————
 
+    //4.另一种灵活的方式，loadBalancer可以轮流获取负载信息
     @Autowired
     private LoadBalancerClient loadBalancer;
 
