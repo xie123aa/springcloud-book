@@ -19,7 +19,7 @@
 
 
 	<dependencies>
-
+<!--		1.引入feign依赖，该依赖引用了ribbon和hystrix的依赖，feign默认开启ribbon负载-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>

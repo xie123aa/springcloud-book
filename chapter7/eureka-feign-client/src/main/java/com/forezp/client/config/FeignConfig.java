@@ -9,6 +9,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 /**
  * Created by fangzhipeng on 2017/6/16.
  */
+//6.feign的配置类，该类在咋feign远程调用失败后会重试
 @Configuration
 public class FeignConfig {
 

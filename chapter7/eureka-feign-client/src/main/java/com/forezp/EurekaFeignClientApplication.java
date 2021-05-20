@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
+//2.添加注解，使用feign功能
 @EnableFeignClients
 public class EurekaFeignClientApplication {
 
