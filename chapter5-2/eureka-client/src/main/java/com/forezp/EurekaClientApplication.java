@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
+//客户端可以被发现
 @EnableEurekaClient
 public class EurekaClientApplication {
 
