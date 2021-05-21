@@ -23,11 +23,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<!--		1.服务端依赖-->
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-server</artifactId>
 		</dependency>
-
+<!--服务端ui界面-->
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-autoconfigure-ui</artifactId>

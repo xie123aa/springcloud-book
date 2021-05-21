@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
+//3.开启功能
 @EnableZipkinServer
 public class ZipkinServiceApplication {
 
