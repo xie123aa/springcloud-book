@@ -1,6 +1,6 @@
 server:
   port: 8763
-
+#2.配置服务端地址
 spring:
   zipkin.base-url: http://localhost:9411
   application:
